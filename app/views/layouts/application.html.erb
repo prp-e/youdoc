@@ -18,7 +18,11 @@
     <div class="deep-purple darken-2 nav-wrapper">
       <a href="#" class="brand-logo">یوداک</a>
       <ul id="nav-mobile" class="nav-tabs left hide-on-med-and-down">
-        <li><a href="#">ورود/ثبت‌نام</a></li>
+        <% if !user_signed_in? %>
+          <li><a href="/users/sign_in">ورود/ثبت‌نام</a></li>
+        <% else %>
+          <li><%= link_to 'خروج', destroy_user_session_path, :method => :delete %></li>
+        <% end %>
       </ul>
     </div>
   </nav>
