@@ -19,6 +19,9 @@
     direction: rtl !important;
  }
 
+p {
+    padding: 10px;
+}
 
  .brand-logo {
     margin-right: 15px;
