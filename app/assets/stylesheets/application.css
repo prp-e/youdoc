@@ -18,3 +18,12 @@
     background-color: #f3f3f3;
     direction: rtl;
  }
+
+ .brand-logo {
+     margin: 5px;
+     padding: 5px;
+ }
+
+ .nav-wrapper {
+     padding: 5px;
+ }
