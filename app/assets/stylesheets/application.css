@@ -14,6 +14,15 @@
  *= require_self
  */
 
+@font-face {
+    font-family: 'Vazir';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/Vazir-Regular.ttf');
+}
+
+* {
+    font-family: Vazir !important;
+}
+
  body {
     background-color: #f3f3f3;
     direction: rtl !important;
