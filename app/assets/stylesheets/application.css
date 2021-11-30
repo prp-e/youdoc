@@ -21,11 +21,11 @@
 
 * {
     font-family: Vazir !important;
+    direction: rtl !important;
 }
 
  body {
     background-color: #f3f3f3;
-    direction: rtl !important;
  }
 
 p {
