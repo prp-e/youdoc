@@ -1,6 +1,6 @@
-<h1>Editing Document</h1>
+<div class="container">
+    <%= render 'form', document: @document %>
 
-<%= render 'form', document: @document %>
-
-<%= link_to 'Show', @document %> |
-<%= link_to 'Back', documents_path %>
+    <%= link_to 'نمایش', @document, :class => "waves-effect waves-light btn deep-purple darken-2 white-text" %> |
+    <%= link_to 'بازگشت', documents_path, :class => "waves-effect waves-light btn deep-purple darken-2 white-text" %>
+</div>
