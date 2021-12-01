@@ -9,6 +9,15 @@ class DocumentsController < ApplicationController
 
   # GET /documents/1 or /documents/1.json
   def show
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render pdf: 'document',
+               template: 'documents/show.html.erb',
+               layout: 'pdf.html.erb',
+               show_as_html: params[:debug].present?
+      end
+    end
   end
 
   # GET /documents/new
