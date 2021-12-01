@@ -21,7 +21,7 @@
         <% if !user_signed_in? %>
           <li><a href="/users/sign_in" class="white-text">ورود/ثبت‌نام</a></li>
         <% else %>
-          <li><%= link_to 'خروج', :class=> "white-text", destroy_user_session_path, :method => :delete %></li>
+          <li><%= link_to 'خروج', destroy_user_session_path, :method => :delete, :class=> "white-text"%></li>
         <% end %>
       </ul>
     </div>
