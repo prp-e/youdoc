@@ -19,9 +19,9 @@
       <a href="#" class="brand-logo">یوداک</a>
       <ul id="nav-mobile" class="nav-tabs left hide-on-med-and-down">
         <% if !user_signed_in? %>
-          <li><a href="/users/sign_in">ورود/ثبت‌نام</a></li>
+          <li><a href="/users/sign_in" class="white-text">ورود/ثبت‌نام</a></li>
         <% else %>
-          <li><%= link_to 'خروج', destroy_user_session_path, :method => :delete %></li>
+          <li><%= link_to 'خروج', :class=> "white-text", destroy_user_session_path, :method => :delete %></li>
         <% end %>
       </ul>
     </div>
