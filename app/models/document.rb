@@ -5,6 +5,6 @@ class Document < ApplicationRecord
   belongs_to :user
 
   def set_uuid
-    self.id = SecureRandom.uuid
+    self.id = SecureRandom.rand(1000000..9999999)  
   end
 end
