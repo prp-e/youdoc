@@ -18,6 +18,10 @@
           <br/>
           <p></p>
         </div>
+        <div class="card-action">
+          <%= link_to 'ویرایش', edit_document_path(document), :class=> "waves-effect waves-light btn deep-purple darken-2 white-text"%>
+          <%= link_to 'حذف', document_path(document), :method => :delete, :data => { :confirm => 'آیا مطمئن هستید؟' }, :class=> "waves-effect waves-light btn red darken-2 white-text"%>
+        </div>
     </div>
   <% end %>
 </div>
