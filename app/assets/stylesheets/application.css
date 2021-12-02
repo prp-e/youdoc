@@ -21,7 +21,7 @@
 
 * {
     font-family: Vazir !important;
-    direction: rtl;
+    direction: rtl !important;
     unicode-bidi: embed;
 }
 
