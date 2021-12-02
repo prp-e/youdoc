@@ -29,6 +29,7 @@
     background-color: #f3f3f3;
  }
 
+
 p {
     padding: 3px;
     padding-right: 10px;
@@ -57,3 +58,9 @@ p {
  .trix-content {
      height: 8.5in;
  }
+
+ .footer-fixed {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
