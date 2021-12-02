@@ -21,7 +21,8 @@
 
 * {
     font-family: Vazir !important;
-    direction: rtl !important;
+    direction: rtl;
+    unicode-bidi: embed;
 }
 
  body {
