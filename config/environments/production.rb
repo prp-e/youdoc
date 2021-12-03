@@ -123,7 +123,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :openssl_verify_mode => OpenSSL::SSL::VERIFY_NONE, 
-    :address              => "148.251.200.145",
+    :address              => ENV['EMAIL_HOST'],
     :port                 => 587,
     :user_name            => ENV['EMAIL_ADDRESS'],  
     :password             => ENV['EMAIL_PASSWORD'],
