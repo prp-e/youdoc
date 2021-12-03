@@ -27,7 +27,14 @@
 
  body {
     background-color: #f3f3f3;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
  }
+
+ main {
+    flex: 1 0 auto;
+  }
 
 p {
     padding: 3px;
