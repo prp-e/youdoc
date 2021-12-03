@@ -79,7 +79,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :address              => "mail.ganjnameboxir",
-    :port                 => 587,
+    :port                 => 25,
     :user_name            => ENV['EMAIL_ADDRESS'],  
     :password             => ENV['EMAIL_PASSWORD'],
     :authentication       => "login"
