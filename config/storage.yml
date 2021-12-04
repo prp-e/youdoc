@@ -13,6 +13,7 @@ amazon:
   secret_access_key: <%= ENV['S3_SECRET_KEY'] %>
   endpoint: <%= ENV['S3_ENDPOINT'] %>
   bucket: youdoc
+  region: ir-thr-at1
 
 # Remember not to checkin your GCS keyfile to a repository
 # google:
