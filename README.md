@@ -9,3 +9,6 @@ YouDoc is a _Free/Libre and Open Source_ (FLOSS) counterpart of [Google Docs](ht
     * `EMAIL_HOST`: Email server.
     * `EMAIL_ADDRESS`: Username/E-Mail address. 
     * `EMAIL_PASSWORD`: Password for the same account. 
+    * `S3_ENDPOINT`: Amazon S3 endpoint you've got.
+    * `S3_ACCESS_KEY`: Amazon S3 access key.
+    * `S3_SECRET_KEY`: Amazon S3 secret key. 
