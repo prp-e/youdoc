@@ -14,8 +14,7 @@ class DocumentsController < ApplicationController
       format.pdf do
         render pdf: 'document',
                template: 'documents/show.html.erb',
-               layout: 'pdf.html.erb',
-               show_as_html: params[:debug].present?
+               layout: 'pdf.html.erb'
       end
     end
   end
