@@ -14,7 +14,6 @@ amazon:
   endpoint: <%= ENV['S3_ENDPOINT'] %>
   bucket: youdoc
   force_path_style: true
-  public: true
   region: us-east-1
 
 # Remember not to checkin your GCS keyfile to a repository
