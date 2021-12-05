@@ -86,4 +86,6 @@ Rails.application.configure do
     :password             => ENV['EMAIL_PASSWORD'],
     :authentication       => "plain"
   }
+
+  config.hosts << "youdoc.ir"
 end
