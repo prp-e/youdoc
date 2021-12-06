@@ -64,6 +64,7 @@ p {
 
  .trix-content {
      height: 8.5in;
+     overflow-y: auto;
  }
 
  .footer-fixed {
